@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyDawgMenu">
+
+    <TextView
+        android:id="@+id/textMyDawg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/textMyDawg"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imagemyvet"
+        app:layout_constraintStart_toStartOf="@+id/imagemyfood"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imagemyfood"
+        android:layout_width="146dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorWhite"
+        android:onClick="menuOptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagemyvet"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMyDawg"
+        app:layout_constraintVertical_bias="0.079"
+        app:srcCompat="@drawable/myfood" />
+
+    <ImageView
+        android:id="@+id/imagemyvet"
+        android:layout_width="146dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="menuOptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMyDawg"
+        app:layout_constraintVertical_bias="0.079"
+        app:srcCompat="@drawable/myvetdraw" />
+
+    <ImageView
+        android:id="@+id/imageevents"
+        android:layout_width="183dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="menuOptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imagemyfood"
+        app:layout_constraintStart_toStartOf="@+id/imagemyfood"
+        app:layout_constraintTop_toBottomOf="@+id/imagemyfood"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/myeventsdraw" />
+
+    <ImageView
+        android:id="@+id/imagemydog"
+        android:layout_width="146dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="menuOptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imagemyvet"
+        app:layout_constraintStart_toStartOf="@+id/imagemyvet"
+        app:layout_constraintTop_toBottomOf="@+id/imagemyvet"
+        app:layout_constraintVertical_bias="0.765"
+        app:srcCompat="@drawable/mydog" />
+
+    <ImageView
+        android:id="@+id/imagemydonation"
+        android:layout_width="146dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="164dp"
+        android:onClick="menuOptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagemyvet"
+        app:layout_constraintStart_toEndOf="@+id/imagemyfood"
+        app:layout_constraintTop_toBottomOf="@+id/textMyDawg"
+        app:layout_constraintVertical_bias="0.253"
+        app:srcCompat="@drawable/mydonation" />
+
+    <ImageView
+        android:id="@+id/imagemyalarm"
+        android:layout_width="147dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imagemydonation"
+        app:layout_constraintStart_toStartOf="@+id/imagemydonation"
+        app:layout_constraintTop_toBottomOf="@+id/imagemydonation"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mycalendardraw" />
+
+    <TextView
+        android:id="@+id/textMenuClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="X"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imagemyvet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toEndOf="@+id/textMyDawg"
+        app:layout_constraintTop_toTopOf="@+id/textMyDawg"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

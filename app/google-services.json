@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071550246794",
+    "firebase_url": "https://mydawgandroidstudio-65d12.firebaseio.com",
+    "project_id": "mydawgandroidstudio-65d12",
+    "storage_bucket": "mydawgandroidstudio-65d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071550246794:android:bb02c0e5b8d8c7a8",
+        "android_client_info": {
+          "package_name": "mydawg.project.mydawgandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071550246794-ahpljkmk7leb3921api43gldmvi9db5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mydawg.project.mydawgandroid",
+            "certificate_hash": "ce649b1915a4970f38658243c17528b72cea8294"
+          }
+        },
+        {
+          "client_id": "1071550246794-oe0fb57ilrpd89ahm01rrtunm8h85453.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgDpkA3BD-htQjT_aa5wAKcBw2kTcgEyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071550246794-oe0fb57ilrpd89ahm01rrtunm8h85453.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

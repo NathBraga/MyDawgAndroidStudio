@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyDogsMusic">
+
+    <TextView
+        android:id="@+id/textMyDawg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/textMyDawg"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imAbbyBertie1"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorYellow"
+        android:onClick="playC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
+        app:srcCompat="@drawable/abbyandbertie1"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imSox"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorGrey"
+        android:onClick="playE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imPaw1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imPaw1"
+        app:layout_constraintTop_toBottomOf="@+id/imPaw1"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/sox" />
+
+    <ImageView
+        android:id="@+id/imBertie"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorYellow"
+        android:onClick="playG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imPaw2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imPaw2"
+        app:layout_constraintTop_toBottomOf="@+id/imPaw2"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/bertie" />
+
+    <ImageView
+        android:id="@+id/imAbbyBertie2"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/colorGrey"
+        android:onClick="playA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imPaw3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imPaw3"
+        app:layout_constraintTop_toBottomOf="@+id/imPaw3"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/bertieabbyplaying" />
+
+    <ImageView
+        android:id="@+id/imPaw1"
+        android:layout_width="200sp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorBrown"
+        android:onClick="playD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imAbbyBertie1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imAbbyBertie1"
+        app:layout_constraintTop_toBottomOf="@+id/imAbbyBertie1"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/mypaw" />
+
+    <ImageView
+        android:id="@+id/imPaw2"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorBrown"
+        android:onClick="playF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imSox"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imSox"
+        app:layout_constraintTop_toBottomOf="@+id/imSox"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mypaw" />
+
+    <ImageView
+        android:id="@+id/imPaw3"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorBrown"
+        android:onClick="playB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imBertie"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imBertie"
+        app:layout_constraintTop_toBottomOf="@+id/imBertie"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mypaw" />
+
+    <TextView
+        android:id="@+id/textEvLetsPlay"
+        android:layout_width="120dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/letsPlay"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/bEvent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toTopOf="@+id/imAbbyBertie1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <Button
+        android:id="@+id/bEventMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/bmenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imAbbyBertie2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/bEvent"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="My Events"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/bDonation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/textMyDonation"
+        app:layout_constraintBottom_toTopOf="@+id/bEventMenu"
+        app:layout_constraintEnd_toEndOf="@+id/bEvent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bEvent"
+        app:layout_constraintTop_toBottomOf="@+id/bEvent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="234dp" />
+
+</android.support.constraint.ConstraintLayout>

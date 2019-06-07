@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyDawg</string>
+    <string name="textMyDawg">MyDawg</string>
+    <string name="textMyDog">My Dog</string>
+    <string name="textMyFood">My Food</string>
+    <string name="textMyEvents">My Events</string>
+    <string name="textMyVet">My Vet</string>
+    <string name="textMyDonation">My Donation</string>
+    <string name="textMyReminder">Reminders</string>
+    <string name="bmenu">Menu</string>
+    <string name="editEmail">Email</string>
+    <string name="ownerName">Owner Name</string>
+    <string name="editDogsName">Dog Name</string>
+    <string name="editPassword">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="passwordInfo">Minimum lenght 6 letters or numbers</string>
+    <string name="textRegister">Register</string>
+    <string name="textClose">Close</string>
+    <string name="textSave">Save</string>
+    <string name="textEdit">Edit</string>
+    <string name="textForgot">Forgot Password</string>
+    <string name="dogsName">Dog Name</string>
+    <string name="dogsBreed">Breed</string>
+    <string name="dogChipInfo">Chip Information</string>
+    <string name="dogBday">Birthday</string>
+    <string name="dogGender">Gender</string>
+    <string name="dogWeight">Dog Weight</string>
+    <string name="dogAdoption">Adoption Date</string>
+    <string name="showFood">Show Food</string>
+    <string name="addFood">Add Food</string>
+    <string name="store">Store</string>
+    <string name="flavour">Flavour</string>
+    <string name="brand">Brand</string>
+    <string name="quantity">Quantity in KG</string>
+    <string name="price">Price</string>
+    <string name="amountaday">Amount in g/day</string>
+    <string name="dateOfPurchase">Date of Purchase</string>
+    <string name="dateOfOpening">Opening Date</string>
+    <string name="save">Save</string>
+    <string name="myVetName">Vet Name</string>
+    <string name="myVetCompany">Vet Company</string>
+    <string name="myVetPhone">Phone</string>
+    <string name="textDonate">Donate</string>
+    <string name="textSupport">Support</string>
+    <string name="textDDRInfo">DDR Contact</string>
+    <string name="remAlarm">Set Alarm</string>
+    <string name="letsPlay">Ready to party? Press the dog or paw to make a good song!!</string>
+    <string name="alarmtext">Medicine for your poor sick pet? Set the alarm and do not forget!!
+    You can choose days, hour and minutes. Repeat is also an option</string>
+    <string name="title_activity_suported_dog">SuportedDog</string>
+
+</resources>
